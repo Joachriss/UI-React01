@@ -10,7 +10,7 @@ export const Hero = () => {
             <h1 className='text-4xl sm:text-6xl md:text-7xl font-bold md:py-6'>Grow stronger</h1>
             <div className="flex justify-center py-3">
                 <p className="text-xl sm:text-4xl md:5xl font-bold">The family </p>
-                <ReactTyped className="text-xl sm:text-4xl md:5xl font-bold pl-2 md:pl-4" strings={['Joel','Sophie','Donnie','Katoto','Johannes','Sandra']} typeSpeed={120} backSpeed={140} loop/>
+                <ReactTyped className="text-xl sm:text-4xl md:5xl font-bold pl-2 md:pl-4" strings={['Joel','Sophie','Donnie','Johannes😎','Sandra🥰']} typeSpeed={120} backSpeed={140} loop/>
             </div>
             <div className="md:text-2xl text-xl text-gray-500">
                 madus maaadusu madu maaaaadus ngoma ioo njee njeeeenjeeeee nje

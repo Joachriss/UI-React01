@@ -18,7 +18,7 @@ export const Navbar = () => {
         <div onClick={handleNav} className='block md:hidden'>
             {!nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
         </div>
-        <div className={!nav ? "fixed top-0 left-0 border-r border-r-gray-900 h-full w-[65%] bg-[#000300] ease-in-out duration-500" : 'fixed left-[-100%]'}>
+        <div className={!nav ? "fixed top-0 md:hidden left-0 border-r border-r-gray-900 h-full w-[65%] bg-[#000300] ease-in-out duration-500" : 'fixed left-[-100%]'}>
             <h1 className="text-[#00df9a] text-3xl m-10 font-gold">Joh.React</h1>
             <ul className='p-4 uppercase'>
                 <li className="p-4 border-b border-b-gray-600">Home</li>
